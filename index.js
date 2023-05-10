@@ -17,7 +17,7 @@ app.use(cors());
 // middlewares 
 app.use(express.json())
 app.use("/",authentication);
-app.use("/product",product);
+app.use("/products",product);
 app.use("/address",address);
 app.use("/join",join);
 
